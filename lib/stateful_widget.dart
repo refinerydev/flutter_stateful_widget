@@ -15,9 +15,6 @@ class _Codelabs2State extends State<Codelabs2> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: _isChanged ? Colors.black : Colors.white,
-      appBar: AppBar(
-        title: const Text('Stateful Widget'),
-      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
